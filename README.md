@@ -1,27 +1,14 @@
-# JeuDeCartesFront
+Énoncé :
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+On souhaite développer un jeu de cartes.
+Dans ce jeu, un joueur tire une main de 10 cartes de manière aléatoire.
+Chaque carte possède une couleur ("Carreaux", par exemple) et une valeur ("10", par exemple).
+On vous demande de:
+Construire un ordre aléatoire des couleurs. L'ordre des couleurs est, par exemple, l'un des suivants :
+--> Carreaux, Coeur, Pique, Trèfle
+Construire un ordre aléatoire des valeurs. L'ordre des valeurs est, par exemple, l'un des suivants :
+--> As, 5, 10, 8, 6, 7, 4, 2, 3, 9, Dame, Roi, Valet
+Construire une main de 10 cartes de manière aléatoire.
+Présenter la main "non triée" à l'écran puis la main triée selon n'importe quel ordre défini dans la 1ère et 2ème étape. C'est-à-dire que vous devez classer les cartes par couleur et valeur.
+Vous présenterez une solution qui tourne sur le langage Java/Spring.
+Vous pouvez utiliser un serveur d'application pour présenter la main de l'utilisateur (une interface graphique est la bienvenue), ou simplement la sortie console.
