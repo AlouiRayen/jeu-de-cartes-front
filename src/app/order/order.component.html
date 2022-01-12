@@ -1,0 +1,27 @@
+<div class="card order">
+    <div class="card-body">
+        <div class="row">
+            <div class="col values-order">
+                <p-orderList [value]="values">
+                    <ng-template let-card pTemplate="item">
+                        <div>
+                            <div style="font-size:14px;float:right;margin:15px 5px 0 0">{{card}}</div>
+                        </div>
+                    </ng-template>
+                </p-orderList>
+            </div>
+            <div class="col colors-order">
+                <p-orderList [value]="colors">
+                    <ng-template let-card pTemplate="item">
+                        <div>
+                            <div style="font-size:14px;float:right;margin:15px 5px 0 0">{{card}}</div>
+                        </div>
+                    </ng-template>
+                </p-orderList>
+
+                <button type="button" class="btn btn-light sort" (click)="saveSortOrder()">Trier </button>
+
+            </div>
+        </div>
+    </div>
+</div>

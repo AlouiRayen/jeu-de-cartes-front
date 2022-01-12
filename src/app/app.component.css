@@ -1,0 +1,42 @@
+.header{
+    background-color: #af8439;
+}
+.title{
+    margin-left: 45%;
+    padding: 1%;
+    font-weight: 700;
+    font-size: larger;
+    color: #7e4029;
+}
+
+.table{
+    background-color: #31092e;
+}
+.buttons{
+    margin-left: 4%;
+    padding-top: 1%;
+}
+.create{
+    margin-right: 1%;
+}
+.unsorted{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.sorted{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.gameCard{
+    margin-right: 1%;
+    margin-top: 0.5%;
+    min-width: 23%;
+    background-color: #f6f4f4;
+}
+
+.cards-label{
+    margin-left: 4%;
+}
+
