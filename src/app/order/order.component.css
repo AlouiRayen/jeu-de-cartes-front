@@ -1,0 +1,36 @@
+.order{
+    width: 100%;
+    margin-top: 6%;
+    background-color: #f6f4f4;
+}
+
+::ng-deep .p-orderlist .p-orderlist-list .p-orderlist-item {
+    height: 35px;
+    padding: 0;
+}
+.colors-order{
+    margin-top: 33%;
+}
+
+::ng-deep .p-button{
+    background: #af8439;
+    border: 1px solid #af8439;
+}
+
+::ng-deep .p-button.p-button-icon-only {
+    width: 2rem;
+    height: 2rem;
+}
+
+::ng-deep .p-button:enabled:hover {
+    background: #af8439;
+    color: #ffffff;
+    border-color: #af8439;
+}
+
+.sort{
+    border: solid 0.5px grey;
+    position: absolute;
+    right: 5%;
+    top: 87%;
+}
