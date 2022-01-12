@@ -10,7 +10,6 @@ import { CardService } from './services/card.service';
 })
 export class AppComponent {
   title = 'jeu-de-cartes-front';
-  display = false;
   sortingOrder = new Order();
   unsortedCards : Card[] = [];
   sortedCards : Card[] = [];
@@ -19,15 +18,12 @@ export class AppComponent {
 
   ngOnInit(): void {
   }
-  
-  showOrderPanel(){
-    this.display = !this.display;
-  }
 
   updateSortOrder(order : Order){
-    this.sortingOrder = order;
-    this.display=!this.display
-    this.sortCards()
+    if(this.unsortedCards.length > 0){
+      this.sortingOrder = order;
+      this.sortCards()
+    }
   }
 
   getRandomCards(){
